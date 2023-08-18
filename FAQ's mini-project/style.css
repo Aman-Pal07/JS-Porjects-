@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://media.istockphoto.com/id/1183040030/photo/text-faq-with-wooden-block-on-the-blue-background.jpg?s=1024x1024&w=is&k=20&c=zVN-4DS8uGnJRtx7XGHA8ABsE_wnGuzdzmR1sOU-5p0=");
+  background-size: cover;
+  background-color: rgb(255, 215, 255);
+  padding: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6rem;
+}
+
+h1 {
+  margin-bottom: 7px;
+}
+h4 {
+  padding: 10px;
+}
+
+.accordian {
+  background-color: white;
+  padding: 4px 16px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 5px rgb(255, 205, 255);
+  cursor: pointer;
+}
+
+h4 {
+  font-weight: 800;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  margin-right: 16px;
+  transition: transform 0.4s;
+}
+
+.icon.active {
+  transform: rotate(-180deg);
+}
+
+.answer {
+  padding-left: 10px;
+  color: #666;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s;
+}
