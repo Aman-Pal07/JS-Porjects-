@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enhanced Digital Clock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="clock-container">
+      <div class="clock">
+        <h1 id="format-heading">12-Hour Format</h1>
+        <!-- Dynamic h1 -->
+        <div class="time">
+          <span id="hours">00</span>:<span id="minutes">00</span>:<span
+            id="seconds"
+            >00</span
+          >
+          <span id="am-pm" class="am-pm">AM</span>
+        </div>
+        <div class="additional-info">
+          <div class="date" id="date">Sunday, Jan 1</div>
+        </div>
+      </div>
+
+      <div class="switcher">
+        <label class="switch">
+          <input type="checkbox" id="format-toggle" />
+          <span class="slider"></span>
+        </label>
+        <span class="switch-label">24-Hour Format</span>
+      </div>
+
+      <button id="dark-mode-toggle" class="dark-mode-btn">Change Theme</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
