@@ -1,0 +1,94 @@
+body {
+  font-family: "proxima-nova", sans-serif;
+  color: white;
+  display: flex;
+  height: 100vh;
+  background: #111;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(0deg, #382b8c, #746bb0);
+}
+#demo {
+  width: 90vw;
+  height: auto;
+  max-width: 720px;
+  overflow: visible;
+}
+#icons path {
+  fill: white;
+}
+
+text {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  fill: rgba(0, 0, 0, 0.5);
+}
+
+#icons g {
+  cursor: pointer;
+}
+
+#icons rect {
+  fill: transparent;
+}
+
+.goop {
+  fill: #1c4861;
+  fill: #5c51a6;
+  fill: #382b8c;
+}
+
+#main {
+  stroke: #00688e;
+  stroke: none;
+  stroke-width: 1px;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+a {
+  background: #5cceee;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+a:hover {
+  background: white;
+  color: #5cceee;
+}
+h1,
+h2,
+p {
+  margin: 0;
+}
+h2 {
+  font-weight: 400;
+}
+h2 span {
+  font-weight: 700;
+  color: #5cceee;
+}
+p span {
+  font-weight: 700;
+  color: #5cceee;
+}
+
+.branding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*   position: absolute;
+  bottom: 1rem; */
+}
